@@ -8,7 +8,7 @@ O escaneamento foi realizado em um dispositivo da minha rede local com o IP **19
 
 O escaneamento não encontrou portas abertas e a identificação do sistema operacional não foi possível devido a muitas correspondências de "fingerprints".
 
-### Comando utilizado
+## Comando utilizado
 
 O comando utilizado para realizar o escaneamento foi o seguinte:
 
@@ -39,9 +39,21 @@ Para rodar um escaneamento similar na sua própria rede, você pode usar o segui
 
 nmap -sV -O -oN resultado_nmap.txt <IP_DO_SEU_DISPOSITIVO>
 
+Instalando o Nmap
+
 Certifique-se de ter o Nmap instalado na sua máquina. Se não tiver, você pode instalar com o comando:
 
-sudo apt install nmap   # Para sistemas baseados em Debian/Ubuntu
+    Para sistemas baseados em Debian/Ubuntu:
+
+sudo apt install nmap
+
+Para sistemas baseados em Red Hat/CentOS:
+
+sudo yum install nmap
+
+Para sistemas macOS com Homebrew:
+
+    brew install nmap
 
 Dicas de segurança
 
