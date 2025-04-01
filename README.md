@@ -21,7 +21,7 @@ nmap -sV -O -oN resultado_nmap.txt 192.168.1.8
 
     -oN: Salvar o resultado no arquivo resultado_nmap.txt.
 
-Resultados
+# Resultados
 
     Host: G-Linux (192.168.1.8)
 
@@ -33,13 +33,13 @@ Resultados
 
     Tempo total de escaneamento: 1.60 segundos
 
-Como rodar o escaneamento
+# Como rodar o escaneamento
 
 Para rodar um escaneamento similar na sua própria rede, você pode usar o seguinte comando (modificando o IP conforme necessário):
 
 nmap -sV -O -oN resultado_nmap.txt <IP_DO_SEU_DISPOSITIVO>
 
-Instalando o Nmap
+# Instalando o Nmap
 
 Certifique-se de ter o Nmap instalado na sua máquina. Se não tiver, você pode instalar com o comando:
 
@@ -55,7 +55,7 @@ Para sistemas macOS com Homebrew:
 
     brew install nmap
 
-Dicas de segurança
+# Dicas de segurança
 
     Certifique-se de que as portas abertas na sua rede estão devidamente protegidas e configuradas.
 
@@ -63,6 +63,6 @@ Dicas de segurança
 
     Faça escaneamentos periódicos na sua rede para identificar possíveis vulnerabilidades.
 
-Licença
+# Licença
 
 Este repositório é para fins educacionais e de demonstração. Não há nenhuma licença específica, então, use-o por sua conta e risco.
