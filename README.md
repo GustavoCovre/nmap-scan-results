@@ -25,13 +25,13 @@ nmap -sV -O -oN resultado_nmap.txt 192.168.1.8
 
     Host: G-Linux (192.168.1.8)
 
-    Status do Host: Ativo (0.000027 segundos de latência)
+    Status do Host: Ativo (0.000015 segundos de latência)
 
     Portas verificadas: 1000 portas (todas fechadas ou ignoradas)
 
     Sistema Operacional: Não identificado devido a múltiplas correspondências de fingerprints
 
-    Tempo total de escaneamento: 1.60 segundos
+    Tempo total de escaneamento: 1.59 segundos
 
 # Como rodar o escaneamento
 
